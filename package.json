@@ -10,6 +10,9 @@
     "e2e": "ng e2e"
   },
   "private": true,
+  "peerDependencies": {
+    "header-components": "git+ssh://git@github.com/CariZa/POC-Angular-HeaderComponents.git"
+  },
   "dependencies": {
     "@angular/animations": "^6.1.0",
     "@angular/common": "^6.1.0",
@@ -21,6 +24,7 @@
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/router": "^6.1.0",
     "core-js": "^2.5.4",
+    "header-components": "file:node_modules/header-components/header-components-0.0.1.tgz",
     "rxjs": "~6.2.0",
     "zone.js": "~0.8.26"
   },

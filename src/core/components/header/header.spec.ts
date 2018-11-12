@@ -1,9 +1,9 @@
-import Header from './header.component';
+import { HeaderComponent } from './header.component';
 
 describe('header', () => {
-    let component: Header;
+    let component: HeaderComponent;
     beforeEach(() => {
-        component = new Header();
+        component = new HeaderComponent();
     });
 
     it('should instatiate Header', () => {

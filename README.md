@@ -1,27 +1,41 @@
 # ComponentsParent
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
+## Project Notes
 
-## Development server
+Installed with 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+    $ ng new ...
 
-## Code scaffolding
+The purpose of this POC is to demo a parent project which is a high level "dumb" structured project, which imports other repos with more specific structures
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## TDD
 
-## Build
+Still following basic TDD practices.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run tests:
 
-## Running unit tests
+    $ npm test
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## linking to external repos
 
-## Running end-to-end tests
+https://github.com/CariZa/POC-Angular-HeaderComponents/
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Referencing other repos
 
-## Further help
+External Repo: 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+https://github.com/CariZa/POC-Angular-HeaderComponents/
+
+In package.json add references:
+
+    ...
+    "dependencies": {
+        ...
+            "header-components": "git@github.com:CariZa/POC-Angular-HeaderComponents.git"
+        ...
+    },
+    ...
+
+# Refs
+
+https://www.youtube.com/watch?v=4u9_kdkvTsc

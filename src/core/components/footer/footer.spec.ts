@@ -1,11 +1,11 @@
-import Footer from './footer.component';
+import { FooterComponent } from './footer.component';
 
 describe('footer', () => {
 
-    let component: Footer;
+    let component: FooterComponent;
 
     beforeEach(() => {
-        component = new Footer();
+        component = new FooterComponent();
     });
 
    it('should be able to instantiate footer', () => {
